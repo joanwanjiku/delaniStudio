@@ -31,9 +31,13 @@ header .details{
     letter-spacing: 2px;
 }
 .about{
-    
+    text-align: center;
+    /* border: 1px black solid; */
+    line-height: .5em;
+    padding: 0 1em;
 }
 
 .services{
     background: url('../assets/backgrounds/c_image.jpg');
+    
 }
