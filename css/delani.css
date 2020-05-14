@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 body{
     font-family: 'Crimson Text', serif;
+    box-sizing: border-box;
+    margin: 1em;
 }
 h1{
     font-size: 2rem;
@@ -33,9 +35,9 @@ header .details{
 }
 .about{
     text-align: center;
-    /* border: 1px black solid; */
-    line-height: .5em;
-    padding: 0 1em;
+    /* line-height: .5em; */
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .services{
@@ -48,7 +50,23 @@ header .details{
     /* border: 1px red solid; */
     margin: 2em;
     padding: 2em;
-    line-height: .5em;
-
-
+    /* line-height: .5em; */
+}
+.portfolio{
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.portfolio img{
+    width: 100%;
+}
+.firstRow img,
+.secondRow img{
+    margin: .5em 0;
+}
+@media (min-width: 650px ){
+    .firstRow img,
+    .secondRow img{
+        margin: 0;
+    }
 }
