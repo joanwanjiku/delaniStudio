@@ -2,7 +2,7 @@
 body{
     font-family: 'Crimson Text', serif;
     box-sizing: border-box;
-    margin: 1em;
+    /* margin: 1em; */
 }
 h1{
     font-size: 2rem;
@@ -19,6 +19,7 @@ header{
     background-size: cover;
     text-align: center;
     color: white;
+    height: 100vh;
 }
 header .details{
     padding: 2em;
@@ -68,5 +69,22 @@ header .details{
     .firstRow img,
     .secondRow img{
         margin: 0;
+    }
+}
+.contact{
+    background: url('../assets/backgrounds/c_image.jpg');
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding: 2em;
+}
+.contact form{
+    margin: 0;
+}
+@media (min-width: 650px ){
+    .contact form{
+        max-width: 70%;
+        margin: 0 auto;
     }
 }
