@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 body{
     font-family: 'Crimson Text', serif;
-    box-sizing: border-box;
-    /* margin: 1em; */
+    border: 2px magenta solid;
 }
 h1{
     font-size: 2rem;
@@ -11,15 +10,39 @@ h1{
 p{
     font-size: 1rem;
 }
-/* Layout */
 header{
     background: url('../assets/backgrounds/h_img.jpg');
-    max-width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
     text-align: center;
     color: white;
-    height: 100vh;
+}
+nav{
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0 -15px;
+    box-shadow: 0 8px 6px -6px rgb(110, 109, 109);
+    
+    /* border: 1px red solid; */
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    margin: 0 .5em;
+    padding: .5em;
+    list-style: none;
+    
+}
+nav ul li a{
+    color: white;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    border-bottom: 2px black solid;
+    color: black;
 }
 header .details{
     padding: 2em;
@@ -36,22 +59,18 @@ header .details{
 }
 .about{
     text-align: center;
-    /* line-height: .5em; */
     max-width: 80%;
     margin: 0 auto;
 }
-
 .services{
     background: url('../assets/backgrounds/s_image.jpg');
     color: white;
     text-align: center;
     max-width: 100%;
+    margin: 0 auto; 
 }
 .services .info{
-    /* border: 1px red solid; */
-    margin: 2em;
     padding: 2em;
-    /* line-height: .5em; */
 }
 .portfolio{
     text-align: center;
@@ -88,3 +107,22 @@ header .details{
         margin: 0 auto;
     }
 }
+
+.socials{
+    width: 50%;
+    margin: 0 auto;
+}
+.socials img{
+    margin:0 .5em;
+    width: 5%;
+}
+.copyright{
+    text-align: center;
+    background-color: grey;
+}
+.copyright p,
+.copyright h6{
+    font-weight: 600;
+    margin: 0;
+}
+
