@@ -6,5 +6,14 @@ $(document).ready(function(){
         }, 1000)
     });
 
-    // form validation    
+    // form validation
+    $('form').submit(function(e) {
+        e.preventDefault();
+        if($('#name').val() === "" || $('#email').val() === "" || $('#message').val() === ""){
+            alert('Some fields are missing')
+        }else{
+            alert($('#name').val() + ' We have received your message')
+        }
+        
+    });
 })

@@ -29,6 +29,7 @@ nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 nav ul li{
     margin: 0 .5em;
@@ -105,6 +106,9 @@ header .details{
     .contact form{
         max-width: 70%;
         margin: 0 auto;
+    }
+    nav ul{
+        flex-direction: row;
     }
 }
 
