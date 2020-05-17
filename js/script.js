@@ -13,7 +13,12 @@ $(document).ready(function(){
             alert('Some fields are missing')
         }else{
             alert($('#name').val() + ' We have received your message')
-        }
-        
+        }        
     });
-})
+
+     // What we do session
+     $('.product').click(function(){
+        console.log('clicked')
+        $(this).find("p").slideToggle('main');
+    });
+});
