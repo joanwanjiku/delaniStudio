@@ -13,7 +13,7 @@ $(document).ready(function(){
             alert('Some fields are missing')
         }else{
             alert($('#name').val() + ' We have received your message')
-        }        
+        }
     });
 
      // What we do session
