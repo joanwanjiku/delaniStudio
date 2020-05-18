@@ -2,7 +2,6 @@
 @import url('./font-awesome.css');
 body{
     font-family: 'Crimson Text', serif;
-    border: 2px magenta solid;
 }
 h1{
     font-size: 2rem;
@@ -22,9 +21,7 @@ header{
 nav{
     background: rgba(0, 0, 0, 0.5);
     margin: 0 -15px;
-    box-shadow: 0 8px 6px -6px rgb(110, 109, 109);
-    
-    /* border: 1px red solid; */
+    box-shadow: 0 8px 6px -6px rgb(110, 109, 109);    
 }
 nav ul{
     display: flex;
@@ -118,12 +115,7 @@ header .details{
 .secondRow img{
     margin: .5em 0;
 }
-@media (min-width: 650px ){
-    .firstRow img,
-    .secondRow img{
-        margin: 0;
-    }
-}
+
 .contact{
     background: url('../assets/backgrounds/c_image.jpg');
     max-width: 90%;
@@ -134,15 +126,6 @@ header .details{
 }
 .contact form{
     margin: 0;
-}
-@media (min-width: 650px ){
-    .contact form{
-        max-width: 70%;
-        margin: 0 auto;
-    }
-    nav ul{
-        flex-direction: row;
-    }
 }
 
 .socials{
@@ -162,4 +145,16 @@ header .details{
     font-weight: 600;
     margin: 0;
 }
-
+@media (min-width: 650px ){
+    .contact form{
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    nav ul{
+        flex-direction: row;
+    }
+    .firstRow img,
+    .secondRow img{
+        margin: 0;
+    }
+}
