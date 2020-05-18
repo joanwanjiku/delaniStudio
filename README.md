@@ -1,4 +1,4 @@
-# Delani Studi0
+# Delani Studio
 Delani studio's website details who we are, the services we offer and showcases our previous projects. It has contains section where a user can leave us a message.
 
 ## Prerequisites
