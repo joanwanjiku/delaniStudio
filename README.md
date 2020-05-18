@@ -1,11 +1,12 @@
-# Delani Studio
-
+# Delani Studi0
+Delani studio's website details who we are, the services we offer and showcases our previous projects. It has contains section where a user can leave us a message.
 
 ## Prerequisites
 - Have Git installed.
 - Have a text editor installed e.g VS Code, Atom
 ### Technologies Used
 - HTML, CSS, Bootstrap and JQuery
+- Fontawesome Icons.
 - Any text editor of your choise.
 ### Setup Installation
 To run the application:-
@@ -24,5 +25,4 @@ To run the application:-
 - Joan Wanjiku
     - joanevans18@gmail.com
 #### License
-Copyright &copy; 2020, Joan Evans
-
+Copyright &copy; 2020, Delani Studio
