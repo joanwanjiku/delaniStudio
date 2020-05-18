@@ -88,6 +88,31 @@ header .details{
 }
 .portfolio img{
     width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+}
+.cont{
+    position: relative;
+}
+.text{
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    /* transform: translate(-50%, -50%); */
+    color: rgb(3, 3, 116);
+    font-weight: bold;
+}
+.overlay{
+    opacity: 0;
+}
+.cont:hover img{
+    opacity: .5;
+}
+.cont:hover .overlay{
+    opacity: 1;
 }
 .firstRow img,
 .secondRow img{
