@@ -10,7 +10,7 @@ $(document).ready(function(){
     $('form').submit(function(e) {
         e.preventDefault();
         if($('#name').val() === "" || $('#email').val() === "" || $('#message').val() === ""){
-            alert('Some fields are missing')
+            alert('Some fields are missing!')
         }else{
             alert($('#name').val() + ' We have received your message')
         }

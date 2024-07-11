@@ -147,7 +147,7 @@ header .details{
 }
 @media (min-width: 650px ){
     .contact form{
-        max-width: 70%;
+        max-width: 75%;
         margin: 0 auto;
     }
     nav ul{
